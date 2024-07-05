@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class PricingRuleFactory
   def self.create_pricing_rule(product_code)
     case product_code
